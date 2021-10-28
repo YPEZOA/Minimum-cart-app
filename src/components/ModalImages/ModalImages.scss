@@ -1,0 +1,19 @@
+.container-modal {
+  width: 100vw;
+  height: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  .modal-images {
+    min-height: 100px;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 8px 7px 29px 0px;
+  }
+  .iconClose {
+    position: absolute;
+    right: 36%;
+    top: 38px;
+    cursor: pointer;
+  }
+}

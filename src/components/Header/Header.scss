@@ -1,21 +1,44 @@
 .navbar {
   border-bottom: 1px solid #cccc;
   height: 100px;
-}
-.navbar-nav {
-  margin-left: 40px;
-  flex-direction: row;
-  align-items: center;
-  .nav-item {
-    margin-right: 50px;
-    a {
-      text-decoration: none;
-      color: hsl(0, 0%, 0%);
-      &:hover {
-        border-bottom: 5px solid hsl(26, 100%, 55%);
-        padding-bottom: 35px;
-        animation-delay: 50ms;
+  font-size: 15px;
+  .navbar-brand {
+    padding-top: 0px;
+  }
+  .navbar-nav {
+    margin-left: 40px;
+    flex-direction: row;
+    align-items: center;
+    .nav-item {
+      margin-right: 40px;
+      a {
+        text-decoration: none;
+        color: hsl(0, 0%, 0%);
+        &:active {
+          border-bottom: 5px solid hsl(26, 100%, 55%);
+          padding-bottom: 35px;
+          animation-delay: 50ms;
+        }
       }
+    }
+  }
+  .contain-data {
+    position: relative;
+    margin-left: auto;
+    .avatar-image {
+      width: 50px;
+      height: 50px;
+      border: 2px solid hsl(26, 100%, 55%);
+      border-radius: 100%;
+      margin-left: 40px;
+    }
+    .badge {
+      position: absolute;
+      background-color: hsl(26, 100%, 55%);
+      color: #fff;
+      border-radius: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
   }
 }

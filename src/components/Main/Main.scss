@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  align-items: center;
+  .section-images {
+    width: 40%;
+    margin-top: 70px;
+    padding-left: 50px;
+    .central-image {
+      width: 100%;
+      border-radius: 15px;
+    }
+  }
+  .product-info {
+    width: 30%;
+    margin-left: 10rem;
+    .company {
+      color: hsl(26, 100%, 55%);
+      font-weight: 700;
+    }
+    .product-title {
+      margin-top: 20px;
+      font-weight: 700;
+      font-size: 45px;
+    }
+    .description {
+      font-size: 16px;
+      color: hsl(0, 0%, 0%);
+      margin-top: 30px;
+    }
+    .price {
+      font-weight: 900;
+      font-size: 33px;
+    }
+    .discount {
+      text-decoration: line-through;
+    }
+  }
+}
